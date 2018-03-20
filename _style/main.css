@@ -7,6 +7,8 @@ body {
 .title-header {
 	margin: auto;
 	width: 50%;
+	min-width: 500px;
+	max-width: 900px;
 	height: auto;
 	background-color: #222222CC;
 	padding: 20px 0 20px 0;
@@ -26,4 +28,47 @@ body {
 	font-size: 70px;
 	padding-left: 50px;
 	color: #CCCCCC;
+}
+
+.nav-bar {
+	margin: auto;
+	margin-top: 10px;
+	width: 50%;
+	min-width: 500px;
+	max-width: 900px;
+	height: 40px;
+	background-color: #222222CC;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-button {
+	width: 150px;
+	height: 100%;
+	color: #CCCCCC;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	display: table;
+	border-left: #333333 2px solid;
+}
+
+.left-nav-button {
+	border-left: none;
+}
+
+.nav-button:hover {
+	background-color: #333333;
+}
+
+#current-nav-page {
+	background-color: #393939;
+}
+
+.nav-button p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
