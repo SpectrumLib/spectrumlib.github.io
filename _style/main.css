@@ -6,14 +6,10 @@ body {
 
 .title-header {
 	margin: auto;
-	width: 50%;
-	min-width: 500px;
-	max-width: 900px;
+	width: 100%;
 	height: auto;
-	background-color: #222222CC;
+	background-color: #222222EE;
 	padding: 20px 0 20px 0;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -32,13 +28,12 @@ body {
 
 .nav-bar {
 	margin: auto;
-	margin-top: 10px;
 	width: 50%;
 	min-width: 500px;
-	max-width: 900px;
 	height: 40px;
-	background-color: #222222CC;
-	border-radius: 15px;
+	background-color: #222222EE;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -52,7 +47,6 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 	display: table;
-	border-left: #333333 2px solid;
 }
 
 .left-nav-button {
