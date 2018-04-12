@@ -65,3 +65,17 @@ body {
 	vertical-align: middle;
 	text-align: center;
 }
+
+.copyright-box {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #222222EE;
+	padding: 4px;
+}
+
+.copyright-box p {
+	color: #CCCCCC;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 10px;
+}
