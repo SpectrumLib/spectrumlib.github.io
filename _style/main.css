@@ -4,45 +4,45 @@ body {
 	background-repeat: repeat;
 }
 
-.title-header {
-	margin: auto;
+.header-bar {
 	width: 100%;
-	height: auto;
-	background-color: #222222EE;
-	padding: 20px 0 20px 0;
+	height: 70px;
+	background-color: #111111;
+}
+
+.header-logo-text {
+	height: 100%;
+	margin-left: 20%;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	float: left;
 }
 
 #top-logo {
-	height: 60px;
+	height: 50px;
 }
 
 #top-title {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	font-size: 50px;
-	padding-left: 25px;
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 40px;
+	padding-left: 15px;
 	color: #CCCCCC;
+	margin-top: -5px;
 }
 
 .nav-bar {
-	margin: auto;
-	width: 510px;
-	height: 30px;
-	background-color: #222222EE;
-	border-bottom-left-radius: 30px;
-	border-bottom-right-radius: 30px;
+	height: 100%;
 	display: flex;
-	justify-content: center;
+	float: right;
+	margin-right: 20%;
 	align-items: center;
 }
 
 .nav-button {
-	width: 150px;
-	height: 100%;
+	width: 125px;
+	height: 30px;
 	color: #CCCCCC;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 	font-size: 15px;
 	text-decoration: none;
 	display: table;
@@ -78,4 +78,11 @@ body {
 	color: #CCCCCC;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-size: 10px;
+}
+
+
+
+/* =========== MEDIA ========== */
+@media only screen and (max-width: 700px) {
+	
 }
