@@ -57,10 +57,6 @@ body {
 	display: table;
 }
 
-.left-nav-button {
-	border-left: none;
-}
-
 .nav-button:hover {
 	background-color: #181818;
 }
@@ -100,7 +96,7 @@ body {
 
 .copyright-box p {
 	color: #777777;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Segoe UI', sans-serif;
 	font-size: 10px;
 }
 
@@ -111,5 +107,9 @@ body {
 @media only screen and (max-width: 900px) {
 	#top-title {
 		display: none;
+	}
+	.nav-bar {
+		float: left;
+		margin-left: 20px;
 	}
 }
